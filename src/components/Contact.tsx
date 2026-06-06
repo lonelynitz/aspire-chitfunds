@@ -22,7 +22,7 @@ export default function Contact() {
     setError('');
 
     try {
-      const webUrl = 'https://script.google.com/macros/s/AKfycbyPHuGFTDQuFQPPiHPJTB8k8MkOnG5n2-tAlxDG0DE7mf1MrxBGJeTsd3fs4Pf2b2NB9A/exec';
+      const webUrl = 'https://script.google.com/macros/s/AKfycbyPHuGFTDQuFQPPiHPJTB8k8MkOnG5n2-tAlxDG0DE7mf1MrxBGJeTsd3fs4Pf2b2NB9A/exec'; 
 
       const response = await fetch(webUrl, {
         method: 'POST',
